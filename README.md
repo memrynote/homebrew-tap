@@ -1,16 +1,23 @@
 # Memrynote Tap
 
-## How do I install these formulae?
+## Install Memry
 
-`brew install memrynote/tap/<formula>`
+```sh
+brew install --cask memrynote/tap/memry
+```
 
-Or `brew tap memrynote/tap` and then `brew install <formula>`.
+Or:
+
+```sh
+brew tap memrynote/tap
+brew install --cask memry
+```
 
 Or, in a `brew bundle` `Brewfile`:
 
 ```ruby
 tap "memrynote/tap"
-brew "<formula>"
+cask "memry"
 ```
 
 ## Documentation
