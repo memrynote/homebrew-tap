@@ -1,11 +1,11 @@
 cask "memry" do
   arch arm: "arm64", intel: "x64"
 
-  version "2026-05-16,2026.516.1"
-  sha256 arm:   "548e3d6e0be6077e9d2c70538cc91f9afcf6a57c6436919cc09e78ce52673f43",
-         intel: "03b07429ab8f87eefedf4fc7c79200789cc7b6835338fdc50e00466e216d9f7e"
+  version "2026-07-01.2,2026.701.2"
+  sha256 arm:   "f23a8916ba6e9f9d2ce1abf423167fef62291de75f33f58084ac21e1a88a001b",
+         intel: "01bf3e2fa023fd91ac7b8730b109512f0e2b6881b4c2a5b4aefebf2fad830e97"
 
-  url "https://github.com/memrynote/memry/releases/download/v#{version.csv.first}/Memry-#{version.csv.second}-#{arch}.dmg",
+  url "https://github.com/memrynote/memry/releases/download/v#{version.csv.first}/Memrynote-#{version.csv.second}-#{arch}.dmg",
       verified: "github.com/memrynote/memry/"
   name "Memrynote"
   desc "Local-first notes, tasks, and projects"
