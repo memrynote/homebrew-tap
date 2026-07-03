@@ -1,9 +1,9 @@
 cask "memry" do
   arch arm: "arm64", intel: "x64"
 
-  version "2026-07-03.4,2026.703.4"
-  sha256 arm:   "d834854e6381f55428279998e9206f2405bc654861159f257a79ec5f586a3457",
-         intel: "7e91d0bf5e9bd627c0de315d97d2b4f7e37afaa493f5689da2676dc98d8d229a"
+  version "2026-07-03.5,2026.703.5"
+  sha256 arm:   "d3625a0a48c831e546407fbda1e785246426dcf25d4d381367eb806b2a541a31",
+         intel: "bda3e28f79177a2b0d75f58cd0b89c334865c45e66b223e8e8012597bacf14b1"
 
   url "https://github.com/memrynote/memry/releases/download/v#{version.csv.first}/Memrynote-#{version.csv.second}-#{arch}.dmg",
       verified: "github.com/memrynote/memry/"
@@ -26,12 +26,12 @@ cask "memry" do
 
   depends_on macos: :monterey
 
-  app "Memry.app"
+  app "Memrynote.app"
 
   zap trash: [
-    "~/Library/Application Support/Memry",
+    "~/Library/Application Support/Memrynote",
     "~/Library/Caches/com.memrynote.memry",
-    "~/Library/Logs/Memry",
+    "~/Library/Logs/Memrynote",
     "~/Library/Preferences/com.memrynote.memry.plist",
     "~/Library/Saved Application State/com.memrynote.memry.savedState",
   ]
