@@ -1,9 +1,9 @@
 cask "memry" do
   arch arm: "arm64", intel: "x64"
 
-  version "2026-11-07,2026.1107.1"
-  sha256 arm:   "768f8684e2ad2da5eb55be6ca3050d7e275c20f79016fad26e0ed271967821b3",
-         intel: "4ed4f1d718b0c900ec6389e3024dcb83665b70732fcbbbbaff2cb94f181cbbe3"
+  version "2026-11-08,2026.1108.1"
+  sha256 arm:   "ebf040b3592d8e00b32b43f754a3f6de3b345f001b6e9ce8d9a63d4ef3f9a9e3",
+         intel: "d8544ad22f1fde1336b795e164d6e503d904204eefc15ba4a8025d0e29b13198"
 
   url "https://github.com/memrynote/memry/releases/download/v#{version.csv.first}/MemryNote-#{version.csv.second}-#{arch}.dmg",
       verified: "github.com/memrynote/memry/"
